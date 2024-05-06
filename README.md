@@ -17,23 +17,22 @@ Obtenemos las credenciales del clúster para que kubectl pueda interactuar con �
 ## 3. Instalación de Helm
 Instalamos Helm en nuestras máquinas locales siguiendo las instrucciones de la página oficial.
 Añadimos el repositorio de Bitnami a Helm para acceder a sus charts:
+```
 helm repo add bitnami https://charts.bitnami.com/bitnami
 helm repo update
+```
 
 ## 4. Despliegue de la Aplicación
 Desplegamos WordPress utilizando el chart de Bitnami con configuraciones para alta disponibilidad:
 ```
-helm install wordpress bitnami/wordpress \
-  --set global.storageClass="standard-rwo",mariadb.primary.persistence.storageClass="standard-rwo" \
-  --set wordpressUsername=admin,wordpressPassword=password \
-  --set service.type=LoadBalancer,ingress.enabled=true,ingress.hostname=reto4.dominio.tld
+helm install wordpress bitnami/wordpress
 ```
 ## 5. Configuración de Alta Disponibilidad
 Configuramos la alta disponibilidad para los componentes de la aplicación asegurando que la aplicación, la base de datos y el almacenamiento tengan réplicas en diferentes zonas de disponibilidad.
 
 ## 6. Configuración de HTTPS y Dominio
 Configuramos un certificado SSL utilizando Let's Encrypt y el chart de Helm para cert-manager.
-Configuramos el dominio reto4.dominio.tld para que apunte a la dirección IP proporcionada por el balanceador de cargas de GKE.
+Configuramos el dominio [reto4.dominio.tld](https://reto4.adrephos.me/#) para que apunte a la dirección IP proporcionada por el balanceador de cargas de GKE.
 
 ## 7. Monitoreo y Mantenimiento
 Establecimos políticas de monitoreo y alertas utilizando Prometheus y Grafana, desplegados mediante Helm.
