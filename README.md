@@ -47,4 +47,6 @@ Video explicando el proyecto:
 ## References
 - [Kubernetes doc](https://docs.bitnami.com/kubernetes/get-started-gke)
 - [Wordpress doc](https://github.com/bitnami/charts/tree/main/bitnami/wordpress)
+- [SSL doc](https://cloud.google.com/kubernetes-engine/docs/how-to/managed-certs)
+- [SSL doc](https://cloud.google.com/kubernetes-engine/docs/how-to/managed-certs)
 
