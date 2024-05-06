@@ -42,7 +42,7 @@ Preparamos guías de usuario y mantenimiento para facilitar la operación y las 
 
 Video explicando el proyecto:
 
-[![reto 04](https://img.youtube.com/vi/WKrXh_C2Iak/maxresdefault.jpg)](https://youtu.be/WKrXh_C2Iak)
+[![reto 04](https://img.youtube.com/vi/WKrXh_C2Iak/maxresdefault.jpg)](https://youtu.be/yxYf75c0wvQ)
 
 ## References
 - [Kubernetes doc](https://docs.bitnami.com/kubernetes/get-started-gke)
