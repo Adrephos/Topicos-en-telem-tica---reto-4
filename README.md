@@ -31,8 +31,8 @@ helm install wordpress bitnami/wordpress
 Configuramos la alta disponibilidad para los componentes de la aplicación asegurando que la aplicación, la base de datos y el almacenamiento tengan réplicas en diferentes zonas de disponibilidad.
 
 ## 6. Configuración de HTTPS y Dominio
-Configuramos un certificado SSL utilizando Let's Encrypt y el chart de Helm para cert-manager.
-Configuramos el dominio [reto4.dominio.tld](https://reto4.adrephos.me/#) para que apunte a la dirección IP proporcionada por el balanceador de cargas de GKE.
+Configuramos un certificado SSL utilizando GCP.
+Configuramos el dominio reto4.adrephos.me para que apunte a la dirección IP proporcionada por el balanceador de cargas.
 
 ## 7. Documentación Adicional y Soporte
 Documentamos todos los pasos, comandos y configuraciones usadas durante el despliegue.
