@@ -38,11 +38,9 @@ Configuramos el dominio reto4.adrephos.me para que apunte a la dirección IP pro
 Documentamos todos los pasos, comandos y configuraciones usadas durante el despliegue.
 Preparamos guías de usuario y mantenimiento para facilitar la operación y las actualizaciones futuras del sistema.
 
-## Video CAMBIAR POR EL NUEVO VIDEO QUE VAMOS A GRABAR A LAS 10PM
-
-Video explicando el proyecto:
-
-[![reto 04](https://img.youtube.com/vi/WKrXh_C2Iak/maxresdefault.jpg)](https://youtu.be/yxYf75c0wvQ)
+## Video explicando el proyecto:
+ 
+[reto 04](https://youtu.be/yxYf75c0wvQ)
 
 ## References
 - [Kubernetes doc](https://docs.bitnami.com/kubernetes/get-started-gke)
